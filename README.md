@@ -1,6 +1,8 @@
 # Logitech
 _주변기기 판매 쇼핑몰_
 
+<img src="https://github.com/tnqlsdl1300/GitHub/blob/d1e3450e41814bb60a3b0e36cd30590bc25b7da0/shoppingmall_src/squadgLogo.png" width="200" />
+
 ## 소개
 
 - 마우스, 키보드, 헤드셋 등의 주변기기를  판매하는 주변기기 판매 쇼핑몰 입니다.
