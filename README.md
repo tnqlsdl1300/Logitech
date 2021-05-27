@@ -80,7 +80,7 @@ _주변기기 판매 쇼핑몰_
   - 제품 통계 구현
   - 제품 재고 관리
 
-## 시연영상(ToDo+/일정/예약 - 본인 구현 파트)
+## 시연영상(회원관리 / 검색 / 최근 본 상품 / 이벤트 참여 등 - 본인 구현 파트)
 
 <a href="https://youtu.be/muJ4CnbfRNo">
   <img src="https://github.com/tnqlsdl1300/GitHub/blob/a29ed625eac866a6042080a59f8677903e279a03/shoppingmall_src/main.PNG" width="500" />
