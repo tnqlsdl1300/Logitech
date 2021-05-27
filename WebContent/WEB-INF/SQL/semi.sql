@@ -145,10 +145,14 @@ String sql = "select seq_event, eventname, fk_productid, startday, endday, carou
 "from event \n"+
 "WHERE trunc(sysdate) BETWEEN TO_DATE(STARTDAY, 'YY/MM/DD') AND\n"+
 "                                TO_DATE(ENDDAY, 'YY/MM/DD')";
+select * from member where userid = 'hjun34';
+
+String sql = "update member set pwd = '?', lastpwdchangeday = sysdate\n"+
+"where userid  = '?'";
 
 -- 이벤트 넣기
 insert into event(seq_event, eventname, fk_productid, startday, endday, carouselimg)
-values(event_seq.nextval, 'SquadG 신규 회원 이벤트', 'MX ERGO', '21/01/01', '21/12/31', 'https://resource.logitech.com/w_1024,h_1366,c_limit,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/products/mice/mx-ergo/mx-ergo-wireless-trackball-banner-carousel-01-tablet.png?v=1!@#https://resource.logitech.com/w_1024,h_1366,c_limit,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/products/mice/mx-ergo/mx-ergo-wireless-trackball-banner-carousel-02-tablet.png?v=1!@#https://resource.logitech.com/w_1024,h_1366,c_limit,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/products/mice/mx-ergo/mx-ergo-wireless-trackball-banner-carousel-03-tablet.png?v=1!@#https://resource.logitech.com/w_1024,h_1366,c_limit,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/products/mice/mx-ergo/mx-ergo-wireless-trackball-banner-carousel-04-tablet.png?v=1');
+values(event_seq.nextval, '기존 회원을 위한 이벤트!', 'MX ANYWHERE 3', '21/05/01', '21/10/25', 'https://www.wallpapertip.com/wmimgs/15-152552_813087-title-technology-code-computer-programming-4k-wallpaper.jpg');
 
 update event set carouselimg= 'https://resource.logitech.com/w_1206,c_limit,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/products/mice/m350/m350-carousel-04.png?v=1!@#https://resource.logitech.com/w_1206,c_limit,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/products/mice/m350/m350-carousel-05.png?v=1!@#https://resource.logitech.com/w_1206,c_limit,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/products/mice/m350/m350-carousel-03.png?v=1!@#https://resource.logitech.com/w_1206,c_limit,q_auto,f_auto,dpr_1.0/content/dam/logitech/en/products/mice/m350/m350-carousel-01.png?v=1'
 where seq_event = 7;

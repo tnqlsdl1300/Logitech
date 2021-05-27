@@ -349,8 +349,8 @@ public class MemberDAO implements InterMemberDAO {
 			
 			conn = ds.getConnection();
 			
-			String sql = "update member set pwd = ?\n"+
-					"where userid = ?";
+			String sql = "update member set pwd = ?, lastpwdchangeday = sysdate\n"+
+					"where userid  = ?";
 			
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, Sha256.encrypt(newPwd));
