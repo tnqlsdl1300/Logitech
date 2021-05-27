@@ -80,9 +80,15 @@ _주변기기 판매 쇼핑몰_
   - 제품 통계 구현
   - 제품 재고 관리
 
+## 시연영상(ToDo+/일정/예약 - 본인 구현 파트)
 
+<a href="https://youtu.be/muJ4CnbfRNo">
+  <img src="https://github.com/tnqlsdl1300/GitHub/blob/a29ed625eac866a6042080a59f8677903e279a03/shoppingmall_src/main.PNG" width="500" />
+</a>
 
+`기능 설명을 위한 자막이 있습니다. 유튜브 자막을 켜주시길 바랍니다.` 
 
+## 수정사항
 
-
+- 비밀번호 변경 시 [lastpwdchangeday - 비밀번호 변경 시점] 이 업데이트 되지 않는 오류를 수정
 
