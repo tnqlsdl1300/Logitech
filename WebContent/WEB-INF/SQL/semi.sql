@@ -5,7 +5,7 @@ select *
 from tab;
 SELECT * FROM keywordsearch;
 select * from member;
-select * from loginhistory;
+select * from keywordsearch;
 select * from PURCHASEdetail;
 select * from member;
 desc PURCHASEdetail;
